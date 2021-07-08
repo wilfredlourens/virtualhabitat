@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-layout: page
+layout: page-sidebar
 permalink: "/aboutme.html"
 ###image: "/assets/images/screenshot.jpg"
 comments: true
