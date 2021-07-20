@@ -12,4 +12,6 @@ My personal trajectory describes a path starting from relatively mono-disciplina
 
 Some topics I feel strongly about or sympathetic towards are the energy transition, the repair movement and (sustainable) manufacturing.
 
+My Telecommunications background (as part of the electrical engineering curriculum) has left me with a soft spot for the invisible waves that enable wireless communication and thereby our present society. Even though Maxwell's equations are currently a thing from a recent past I still feel strongly for his principles and the areas of science it has brought about such as antennas, radar and electromagnetic. 
+
 Activities ’on the side’: I take a profound interest in learning languages . I try to visit the Goethe’s Institute monthly book gathering to discuss German literature. As a relic from the past as a hobby (web) programmer I still like to write the occasional line of code, maintaining the photography website of my father. 

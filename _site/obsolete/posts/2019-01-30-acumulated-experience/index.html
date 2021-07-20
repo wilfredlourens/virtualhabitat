@@ -4,22 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Authors | Salut at tous. </title>
+    <title>Accumulated experience of social living | Salut at tous. </title>
 
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Authors | Salut at tous.</title>
+<title>Accumulated experience of social living | Salut at tous.</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Authors" />
+<meta property="og:title" content="Accumulated experience of social living" />
+<meta name="author" content="sal" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Welcome to my online presence. This website serves to illustrate my interests, activities and background story. “A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral.” ― Antoine de Saint-Exupery, The Little Prince." />
 <meta property="og:description" content="Welcome to my online presence. This website serves to illustrate my interests, activities and background story. “A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral.” ― Antoine de Saint-Exupery, The Little Prince." />
-<link rel="canonical" href="http://localhost:4000/authors-list.html" />
-<meta property="og:url" content="http://localhost:4000/authors-list.html" />
+<link rel="canonical" href="http://localhost:4000/obsolete/posts/2019-01-30-acumulated-experience/" />
+<meta property="og:url" content="http://localhost:4000/obsolete/posts/2019-01-30-acumulated-experience/" />
 <meta property="og:site_name" content="Salut at tous." />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Authors" />
+<meta property="og:image" content="http://localhost:4000/assets/images/15.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/15.jpg" />
+<meta property="twitter:title" content="Accumulated experience of social living" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"description":"Welcome to my online presence. This website serves to illustrate my interests, activities and background story. “A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral.” ― Antoine de Saint-Exupery, The Little Prince.","@type":"WebPage","url":"http://localhost:4000/authors-list.html","headline":"Authors","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"sal"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"sal"},"description":"Welcome to my online presence. This website serves to illustrate my interests, activities and background story. “A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral.” ― Antoine de Saint-Exupery, The Little Prince.","@type":"WebPage","url":"http://localhost:4000/obsolete/posts/2019-01-30-acumulated-experience/","image":"http://localhost:4000/assets/images/15.jpg","headline":"Accumulated experience of social living","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -189,7 +192,7 @@ var documents = [{
     "id": 17,
     "url": "http://localhost:4000//obsolete/posts/2019-02-04-welcome-to-jekyll/",
     "title": "Welcome to Wilfred Lourens virtual habitat",
-    "body": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post. ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts  Hi, #{name} endprint_hi('Tom')#=&gt; prints 'Hi, Tom' to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk. "
+    "body": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post. ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: {% highlight ruby %}def print_hi(name) puts “Hi, #{name}”endprint_hi(‘Tom’)#=&gt; prints ‘Hi, Tom’ to STDOUT. {% endhighlight %} Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk. "
     }, {
     "id": 18,
     "url": "http://localhost:4000//404/",
@@ -204,17 +207,17 @@ var documents = [{
     "id": 20,
     "url": "http://localhost:4000//author-jane.html",
     "title": "Jane",
-    "body": "                        Jane Follow:         https://www. wowthemes. net         Blogger, fashionista, love to explore new ideas and write on my morning coffee!                                   Posts by Jane:               "
+    "body": "                        {{page. title}} Follow:         {{ site. authors. jane. site }}         {{ site. authors. jane. bio }}                                   Posts by {{page. title}}:       {% assign posts = site. posts | where: author , jane  %}      {% for post in posts %}      {% include main-loop-card. html %}      {% endfor %}  "
     }, {
     "id": 21,
     "url": "http://localhost:4000//author-sal.html",
     "title": "Sal",
-    "body": "                        Sal Follow:         https://www. wowthemes. net         Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!                                   Posts by Sal:               "
+    "body": "                        {{page. title}} Follow:         {{ site. authors. sal. site }}         {{ site. authors. sal. bio }}                                   Posts by {{page. title}}:       {% assign posts = site. posts | where: author , sal  %}      {% for post in posts %}      {% include main-loop-card. html %}      {% endfor %}  "
     }, {
     "id": 22,
     "url": "http://localhost:4000//authors-list.html",
     "title": "Authors",
-    "body": "Authors:                                             Sal :       (View Posts)      Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!                          &nbsp;       &nbsp;                                                                             Jane :       (View Posts)      Blogger, fashionista, love to explore new ideas and write on my morning coffee!                          &nbsp;       &nbsp;                                                                             Wilfred :       (View Posts)      Citizen of the world, kind-of engineer, still exploring. . .                           &nbsp;       &nbsp;                                      "
+    "body": "{{page. title}}:     {% for author in site. authors %}                                         {{ author[1]. name }} :       (View Posts)      {{ author[1]. bio }}                          &nbsp;       &nbsp;                                    {% endfor %}  "
     }, {
     "id": 23,
     "url": "http://localhost:4000//categories.html",
@@ -332,75 +335,181 @@ function lunr_search(term) {
 
     <!-- Content -->
     <main role="main" class="site-content">
-        <div class="container">
-<h4 class="font-weight-bold spanborder"><span>Authors</span></h4>
-    <div class="row gap-y listrecent listrecent listauthor">
-    
-        <div class="col-lg-6 mb-4">
-            <div class="p-4 border rounded">
-            <div class="row">
-            <div class="col-md-3 mb-4 mb-md-0"><img alt="Sal" src="///assets/images/avatar1.jpg" class="rounded-circle" height="80" width="80"></div>
-            <div class="col-md-9">
-            <a href="//author-sal">
-            <h4 class="text-dark mb-0"> Sal </h4>
-            <small class="d-inline-block mt-1 mb-3 font-weight-normal">(View Posts)</small>
-            <div class="excerpt">Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!</div>
-            </a>
-            <div class="icon-block mt-3 d-flex justify-content-between">  
-            <div>
-            <a target="_blank" href="https://twitter.com/wowthemesnet"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>  &nbsp;
-            <a target="_blank" href="https://www.wowthemes.net"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-between ">
+				<div class=" col-md-6  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+                        <span class="catlist">
+						
+                          <a class="sscroll text-danger" href="//categories.html#jekyll">jekyll</a><span class="sep">, </span>
+                        
+                          <a class="sscroll text-danger" href="//categories.html#tutorial">tutorial</a><span class="sep">, </span>
+                        
+                        </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Accumulated experience of social living</h1>
+					<div class="d-flex align-items-center">
+                        
+                        <img class="rounded-circle" src="///assets/images/avatar1.jpg" alt="Sal" width="70"/>
+                        
+						<small class="ml-3"> Sal <span><a target="_blank" href="https://twitter.com/wowthemesnet" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+                            <span class="text-muted d-block mt-1"> · <span class="reading-time">
+  
+  
+    1 min read
+  
+</span>
+    </span>
+						</small>
+					</div>
+				</div>
+                
+				<div class="col-md-6 pr-0 align-self-center">
+					<img class="rounded" src="//assets/images/15.jpg" alt="Accumulated experience of social living">
+				</div>
+                
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        
+        <!-- Share -->
+		<div class="col-lg-2 pr-4 mb-4 col-md-12">
+			<div class="sticky-top sticky-top-offset text-center">
+				<div class="text-muted">
+					Share this
+				</div>
+				<div class="share d-inline-block">
+					<!-- AddToAny BEGIN -->
+					<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+						<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+						<a class="a2a_button_facebook"></a>
+						<a class="a2a_button_twitter"></a>
+					</div>
+					<script async src="https://static.addtoany.com/menu/page.js"></script>
+					<!-- AddToAny END -->
+				</div>
+			</div>
+		</div>
+        
+        
+		<div class="col-md-12 col-lg-8">
+            
+            <!-- Article -->
+			<article class="article-post">                
+			<p>The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.</p>
+
+<p>As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.</p>
+
+<p>The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.</p>
+
+<p>An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.</p>
+
+<blockquote>
+  <p>It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.</p>
+</blockquote>
+                
+			</article>
+			
+			<!-- Tags -->
+			<div class="mb-4">
+				<span class="taglist">
+				
+				</span>
+			</div>
+ 
+            <!-- Mailchimp Subscribe Form -->
+            
+			<div class="border p-5 bg-lightblue">
+				<div class="row justify-content-between">
+					<div class="col-md-6 mb-2 mb-md-0">
+						<h5 class="font-weight-bold">Join Newsletter</h5>
+						 Get the latest news right in your inbox. We never spam!
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+                            <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate w-100" target="_blank" novalidate>
+                            <div class="mc-field-group">
+							
+								<input type="email" placeholder="Enter e-mail address" name="EMAIL" class="required email form-control w-100" id="mce-EMAIL" autocomplete="on" required>
+							
+							
+								<button type="submit" value="Subscribe" name="subscribe" class="heart btn btn-success btn-block w-100 mt-2">Subscribe</button>
+							
+                            </div>
+                            </form>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+            
+            
+             <!-- Author Box -->
+                				
+				<div class="row mt-5">
+					<div class="col-md-2 align-self-center">
+                         
+                        <img class="rounded-circle" src="///assets/images/avatar1.jpg" alt="Sal" width="90"/>
+                         
+					</div>
+					<div class="col-md-10">		
+                        <h5 class="font-weight-bold">Written by Sal <span><a target="_blank" href="https://twitter.com/wowthemesnet" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+						Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!					
+					</div>
+				</div>				
+                
+            
+            <!-- Comments -->
+            
+                <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = ''; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+</div>
+            
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+<!-- Aletbar Prev/Next -->
+<div class="alertbar">
+    <div class="container">
+        <div class="row prevnextlinks small font-weight-bold">
+          
+          
         </div>
-    
-        <div class="col-lg-6 mb-4">
-            <div class="p-4 border rounded">
-            <div class="row">
-            <div class="col-md-3 mb-4 mb-md-0"><img alt="Jane" src="///assets/images/avatar2.jpg" class="rounded-circle" height="80" width="80"></div>
-            <div class="col-md-9">
-            <a href="//author-jane">
-            <h4 class="text-dark mb-0"> Jane </h4>
-            <small class="d-inline-block mt-1 mb-3 font-weight-normal">(View Posts)</small>
-            <div class="excerpt">Blogger, fashionista, love to explore new ideas and write on my morning coffee!</div>
-            </a>
-            <div class="icon-block mt-3 d-flex justify-content-between">  
-            <div>
-            <a target="_blank" href="https://twitter.com/wowthemesnet"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>  &nbsp;
-            <a target="_blank" href="https://www.wowthemes.net"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-        </div>
-    
-        <div class="col-lg-6 mb-4">
-            <div class="p-4 border rounded">
-            <div class="row">
-            <div class="col-md-3 mb-4 mb-md-0"><img alt="Wilfred" src="//" class="rounded-circle" height="80" width="80"></div>
-            <div class="col-md-9">
-            <a href="//author-wilfred">
-            <h4 class="text-dark mb-0"> Wilfred </h4>
-            <small class="d-inline-block mt-1 mb-3 font-weight-normal">(View Posts)</small>
-            <div class="excerpt">Citizen of the world, kind-of engineer, still exploring...</div>
-            </a>
-            <div class="icon-block mt-3 d-flex justify-content-between">  
-            <div>
-            <a target="_blank" href=""><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>  &nbsp;
-            <a target="_blank" href=""><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
-        </div>
-    
     </div>
 </div>
+
     </main>
 
 
