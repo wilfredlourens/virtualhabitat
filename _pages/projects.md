@@ -11,6 +11,7 @@ In my professional history I have worked on the following projects.
 - The NorthSouth metro line is one of my bigger projects up to date and has prompted my interest for metro and rail related transit projects in urban areas. I have had the opportunity to test the lion's share of the station and tunnel bound installations. 
 
 ---
+
 Privately I have embarked on some projects as well.
 
 - Building a photography website (for my father). This is a legacy activity from my high school days when I was a hobby coder. [www.kbfoto.nl](http://www.kbfoto.nl).
