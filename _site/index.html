@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Mundana Free Jekyll Theme" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"description":"A great Jekyll theme developed by Sal @wowthemesnet.","@type":"WebSite","url":"http://localhost:4000/","name":"Salut at tous.","headline":"Mundana Free Jekyll Theme","@context":"https://schema.org"}</script>
+{"description":"A great Jekyll theme developed by Sal @wowthemesnet.","@type":"WebSite","url":"http://localhost:4000/","headline":"Mundana Free Jekyll Theme","name":"Salut at tous.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -219,7 +219,7 @@ var documents = [{
     "id": 23,
     "url": "http://localhost:4000//categories.html",
     "title": "Categories",
-    "body": "          Categories               welcome:                                  		Aloha, welcome to the web presence of Wilfred Lourens. 	: 		  Hello there, welcome to my virtual habitat! I have an interest in large-scale infrastructure projects. Think transit, think rail, think tunnels. That, and a bunch of other things. Thi. . . 	 			In 				welcome, 								Jun 29, 2021						                                             Featured:    				                  "
+    "body": "          Categories               welcome:                                  		Aloha, welcome to the web presence of Wilfred Lourens. 	: 		  Hello there, welcome to my virtual habitat! I have an interest in large-scale infrastructure projects. Think transit, think rail, think tunnels. That, and a bunch of other things. Thi. . . 	 			In 				welcome, 								Jun 29, 2021						                              metro:                                  		North/South Metro Line - A personal story on a modest contribution	: 		  The construction of the North/South metro line is perhaps the most iconic project on which the city of Amsterdam ever embarked. Growing up in the very same city in the nineties and th. . . 	 			In 				metro, 				rail, 								Jul 29, 2021						                              rail:                                  		North/South Metro Line - A personal story on a modest contribution	: 		  The construction of the North/South metro line is perhaps the most iconic project on which the city of Amsterdam ever embarked. Growing up in the very same city in the nineties and th. . . 	 			In 				metro, 				rail, 								Jul 29, 2021						                                             Featured:    				                  "
     }, {
     "id": 24,
     "url": "http://localhost:4000//contact.html",
@@ -229,7 +229,7 @@ var documents = [{
     "id": 25,
     "url": "http://localhost:4000//",
     "title": "Mundana Free Jekyll Theme",
-    "body": "                                  Aloha, welcome to the web presence of Wilfred Lourens.   :       Hello there, welcome to my virtual habitat! I have an interest in large-scale infrastructure projects. Think transit, think rail, thi. . .               In                 welcome,                                        Jun 29, 2021                                                                                      :                       In                                                                                                                                                                :                       In                                                                                                                                                                :                       In                                                                                                                       All Stories:                   		Aloha, welcome to the web presence of Wilfred Lourens. 	: 		  Hello there, welcome to my virtual habitat! I have an interest in large-scale infrastructure projects. Think transit, think rail, think tunnels. That, and a bunch of other things. Thi. . . 	 			In 				welcome, 								Jun 29, 2021						                                                  Featured:    				              "
+    "body": "                                  North/South Metro Line - A personal story on a modest contribution  :       The construction of the North/South metro line is perhaps the most iconic project on which the city of Amsterdam ever embarked. Growi. . .               In                 metro,                 rail,                                        Jul 29, 2021                                                                                                                             Aloha, welcome to the web presence of Wilfred Lourens.           :                       In                         welcome,                                                                  Jun 29, 2021                                                                                              :                       In                                                                                                                                                                :                       In                                                                                                                       All Stories:                   		North/South Metro Line - A personal story on a modest contribution	: 		  The construction of the North/South metro line is perhaps the most iconic project on which the city of Amsterdam ever embarked. Growing up in the very same city in the nineties and th. . . 	 			In 				metro, 				rail, 								Jul 29, 2021						                  		Aloha, welcome to the web presence of Wilfred Lourens. 	: 		  Hello there, welcome to my virtual habitat! I have an interest in large-scale infrastructure projects. Think transit, think rail, think tunnels. That, and a bunch of other things. Thi. . . 	 			In 				welcome, 								Jun 29, 2021						                                                  Featured:    				              "
     }, {
     "id": 26,
     "url": "http://localhost:4000//privacy-policy.html",
@@ -257,6 +257,11 @@ var documents = [{
     "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
     }, {
     "id": 31,
+    "url": "http://localhost:4000//northsouth-metro/",
+    "title": "North/South Metro Line - A personal story on a modest contribution",
+    "body": "2021/07/29 - The construction of the North/South metro line is perhaps the most iconic project on which the city of Amsterdam ever embarked. Growing up in the very same city in the nineties and the first decade of this century, the project was latently present, e. g. through snippets of news mentioning the usual setbacks, controversies and budget overruns. Interestingly enough, I found myself actually working on the project in the final two years up until its completion. Nowadays, upon the occasional metro ride I undertake, I cannot help reminiscing about the modest contribution I was allowed to make to this engineering feat. In this article, I will explain what my contribution looked like and how I feel about this experience looking back. I will gently dabble in the technical aspects, while also sharing my take on how things were organized. Please note that this is a personal story and one should not take it for gospel, as my personal perspective only accounts for a tiny part of the project, both in time and scope. To give you an impression, I usually walked around like this.  … to be continued … "
+    }, {
+    "id": 32,
     "url": "http://localhost:4000//welcome-to-online-presence/",
     "title": "Aloha, welcome to the web presence of Wilfred Lourens.",
     "body": "2021/06/29 - Hello there, welcome to my virtual habitat! I have an interest in large-scale infrastructure projects. Think transit, think rail, think tunnels. That, and a bunch of other things. This web presence serves as a stage for sharing my thoughts on (mostly) engineering matters. Please to take a look in the About Me and Projects sections. "
@@ -340,26 +345,28 @@ function lunr_search(term) {
     
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
-    <a href="//welcome-to-online-presence/">
-    <div class="topfirstimage" style="background-image: url(https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+    <a href="//northsouth-metro/">
+    <div class="topfirstimage" style="background-image: url(http://mp-produktie.nl/Images%20Speciaal-2/2018-07-21%20Opening%20NoordZuidlijn%20(59).JPG); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
     </a>
     <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
     <h2 class="h4 font-weight-bold">
-    <a class="text-dark" href="//welcome-to-online-presence/">Aloha, welcome to the web presence of Wilfred Lourens.</a>
+    <a class="text-dark" href="//northsouth-metro/">North/South Metro Line - A personal story on a modest contribution</a>
     </h2>
     <p class="excerpt">
-        Hello there, welcome to my virtual habitat! I have an interest in large-scale infrastructure projects. Think transit, think rail, thi...
+        The construction of the North/South metro line is perhaps the most iconic project on which the city of Amsterdam ever embarked. Growi...
     </p>
     <div>
         <small class="d-block text-muted">
             In <span class="catlist">
                 
-                <a class="text-capitalize text-muted smoothscroll" href="//categories.html#welcome">welcome</a><span class="sep">, </span>
+                <a class="text-capitalize text-muted smoothscroll" href="//categories.html#metro">metro</a><span class="sep">, </span>
+                
+                <a class="text-capitalize text-muted smoothscroll" href="//categories.html#rail">rail</a><span class="sep">, </span>
                 
                 </span>                   
         </small>
         <small class="text-muted">
-            Jun 29, 2021
+            Jul 29, 2021
         </small>
     </div>
     </div>
@@ -369,18 +376,26 @@ function lunr_search(term) {
     <div class="col-md-6">
         
         <!-- second latest post --><div class="mb-3 d-flex align-items-center">                
+                
+                <div class="col-md-4">
+                <a href="//welcome-to-online-presence/">
+                 <img class="w-100" src="https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Aloha, welcome to the web presence of Wilfred Lourens.">
+                </a>
+                </div>
                                 
                 <div>
                     <h2 class="mb-2 h6 font-weight-bold">
-                    <a class="text-dark" href="/"></a>
+                    <a class="text-dark" href="//welcome-to-online-presence/">Aloha, welcome to the web presence of Wilfred Lourens.</a>
                     </h2>
                     <small class="d-block text-muted">
                         In <span class="catlist">
                         
+                        <a class="text-capitalize text-muted smoothscroll" href="//categories.html#welcome">welcome</a><span class="sep">, </span>
+                        
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        
+                        Jun 29, 2021
                     </small>
                 </div>
             </div>
@@ -426,6 +441,8 @@ function lunr_search(term) {
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
  
 
+ 
+
 
 
 
@@ -445,6 +462,38 @@ function lunr_search(term) {
         <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
         
 
+        
+        
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="//northsouth-metro/">North/South Metro Line - A personal story on a modest contribution</a>
+	</h2>
+	<p class="excerpt">
+	   The construction of the North/South metro line is perhaps the most iconic project on which the city of Amsterdam ever embarked. Growing up in the very same city in the nineties and th...
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="//categories.html#metro">metro</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="//categories.html#rail">rail</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jul 29, 2021
+	</small>
+</div>
+
+	<div class="col-md-3 pr-0 text-right">
+	<a href="//northsouth-metro/">
+	<img class="w-100" src="http://mp-produktie.nl/Images%20Speciaal-2/2018-07-21%20Opening%20NoordZuidlijn%20(59).JPG" alt="North/South Metro Line - A personal story on a modest contribution">
+	</a>
+	</div>
+
+</div>
+        
         
         
             <div class="mb-5 d-flex justify-content-between main-loop-card">
