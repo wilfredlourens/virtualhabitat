@@ -12,6 +12,6 @@ In this article, I will explain what my contribution looked like and how I feel 
 
 To give you an impression, I usually walked around like this.
 
-![Work attire](assets/images/wilfred-boelhouwer-nzl.jpg)
+![Work attire](../assets/images/wilfred-boelhouwer-nzl.jpg)
 
-… to be continued …..
+… to be continued ....
