@@ -14,4 +14,4 @@ To give you an impression, I usually walked around like this.
 
 ![Abc](wilfred-boelhouwer-nzl.jpg)
 
-… to be continued …
+… to be continued ….
