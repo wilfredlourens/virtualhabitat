@@ -14,4 +14,6 @@ To give you an impression, I usually walked around like this.
 
 ![Work attire](/virtualhabitat/assets/images/wilfred-boelhouwer-nzl.jpg)
 
+
+
 …. .....to be continued ............
