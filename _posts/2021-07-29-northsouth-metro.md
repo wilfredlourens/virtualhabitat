@@ -14,6 +14,13 @@ To give you an impression, I usually walked around like this.
 
 ![Work attire](/virtualhabitat/assets/images/wilfred-boelhouwer-nzl.jpg)
 
+What kind of image pops up when you think of a metro station in particular? Perhaps you imagine the platform, with people casting glances at the screen displaying the remaining minutes until the next arriving train. You might think of the passengers rushing up and down the escalators and stair cases, entering and exiting through beeping ticket gates. You might even think of the occasional announcements of arriving and departing trains or (possibly) disturbances and emergencies.
+
+Regardless of the particular image of a metro station that you just conjured up, it most likely was not a bland cavern. It probably contained things we call installations, things that contribute to a safe and comfortable experience of a traveller. Think of the escalator that gets a passenger to the platform, the lights that illuminate your surroundings 
+
+-- to be continued --
 
 
-…. .....to be continued ............
+
+
+
