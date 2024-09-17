@@ -4,7 +4,7 @@ layout: page
 permalink: "/aboutme.html"
 comments: false
 ---
-Welcome to my virtual habitat. Consider it both an addendum to my curriculum vitae as well as a stage for sharing my thoughts on (non-) engineering matters. Please do get in touch and let us chat and discuss. I do love the dialogue. 
+Welcome to my virtual habitat. Consider it both an addendum to my curriculum vitae as well as a stage for sharing my thoughts on (non-) engineering matters. Please do get in touch and let us chat and discuss. I do love the dialogue...
 
 I am a curious engineering professional and have been active in the built environment with a focus on infrastructure. Think transit, think rail, think tunnels. 
 
